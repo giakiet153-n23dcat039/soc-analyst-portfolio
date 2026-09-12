@@ -1,0 +1,6 @@
+=== Brute-Force Detection ===
+Log file: sample_logs/auth.log
+Threshold: 5 failed attempts
+
+[ALERT] 203.0.113.50 - 8 failed login attempts
+[INFO]  198.51.100.25 - 1 failed login attempts
