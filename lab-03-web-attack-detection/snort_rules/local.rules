@@ -1,0 +1,2 @@
+alert tcp any any -> any 80 (msg:"Possible SQL Injection - UNION detected"; content:"UNION"; sid:1000002;)
+alert tcp any any -> any 80 (msg:"Possible XSS - script tag detected"; content:"script"; sid:1000003;)
